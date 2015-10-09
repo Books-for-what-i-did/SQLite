@@ -14,9 +14,11 @@ decreases ***write amplification*** by SQLite on `BtrFS` filesystems.
 [BtrFS's Opportunity](opportunity.md) describes the details of
 opportunity in BtrFS and the optimization technique.
 
-SQLite `WAL` mode has changed already and you can find the source
-codes from [Github: SQLite](https://github.com/wurikiji/SQLite-on-BtrFS).
+SQLite `WAL` mode has already changed. 
 <br>SQLite `RBJ` mode is still in progress. 
+<br>You can find the source
+codes from [Github: SQLite](https://github.com/wurikiji/SQLite-on-BtrFS).
+
 
 
 
