@@ -5,7 +5,7 @@ almost every mobile platforms including Android and iOS (although
 there are some move to change default database). 
 
 SQLite provides two journal modes `RBJ (Rollback Journal)` and `WAL(Write Ahead Log)`.
-[SQLite summary](summry.md) describes two journal modes. 
+[SQLite summary](summary.md) describes two journal modes. 
 
 ## Simple Optimization of SQLite with BtrFS
 This optimization technique that I implemented 
