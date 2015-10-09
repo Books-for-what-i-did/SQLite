@@ -1,4 +1,22 @@
-This optimization technique decreases write amplification by SQLite on BtrFS filesystems.
+# What's this chapter about?
 
-This work is in progress for SQLite RBJ and WAL modes.
+It is defacto standard that `SQLite` database is default databases for 
+almost every mobile platforms including Android and iOS (although
+there are some move to change default database). 
+
+SQLite provides two journal modes `RBJ (Rollback Journal)` and `WAL(Write Ahead Log)`.
+[SQLite summary](summry.md) describes two journal modes. 
+
+## Simple Optimization of SQLite with BtrFS
+This optimization technique that I implemented 
+decreases ***write amplification*** by SQLite on `BtrFS` filesystems.
+
+[BtrFS's Opportunity](opportunity.md) describes the details of
+opportunity in BtrFS and the optimization technique.
+
+SQLite `WAL` mode has changed already and you can find the source
+codes from [Github: SQLite](https://github.com/wurikiji/SQLite-on-BtrFS).
+<br>SQLite `RBJ` mode is still in progress. 
+
+
 
